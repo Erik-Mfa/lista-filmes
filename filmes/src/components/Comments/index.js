@@ -20,7 +20,7 @@ export default function Comments({ filme }) {
         filmec.filme === 'vingadores'
     );
     return (
-        <div className="container text-center">
+        <div className="container text-center mt-4 p-0">
             <div className="row">
                 {comentariosFilme.map((comment, i) => (
                     <div className="col" key={i.toString()}>
