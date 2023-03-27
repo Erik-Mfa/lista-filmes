@@ -4,6 +4,7 @@ import Home from './pages/home';
 import Planos from './pages/planos';
 import Sobre from './pages/sobre';
 import Detalhes from './pages/detalhes';
+import Error from './pages/error';
 
 export default function RoutesConfig() {
     return (
@@ -12,7 +13,7 @@ export default function RoutesConfig() {
         <Route path='planos' element={<Planos />} />
         <Route path='sobre/:name' element={<Sobre />} />
         <Route path='detalhes/:filme' element={<Detalhes />} />
-        <Route path='*' element={<h1>Página Não Encontrada!</h1>} />
+        <Route path='*' element={<Error />}  />
       </Routes>
     );
   }
