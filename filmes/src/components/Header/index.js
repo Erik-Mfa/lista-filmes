@@ -10,9 +10,9 @@ export default function Header() {
                 </a>
 
                 <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <li> <Link className="nav-link" to='/'>Home</Link> </li>
-                    <li> <Link className="nav-link" to='/planos'>Planos</Link> </li>
-                    <li> <Link className="nav-link" to='/sobre/meunome'>Sobre</Link> </li>
+                    <li> <Link className="nav-link link-dark fs-3" to='/'>Home</Link> </li>
+                    <li> <Link className="nav-link link-dark fs-3" to='/planos'>Planos</Link> </li>
+                    <li> <Link className="nav-link link-dark fs-3" to='/sobre/meunome'>Sobre</Link> </li>
                 </ul>
 
                 <div className="col-md-3 text-end">

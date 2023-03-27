@@ -63,7 +63,7 @@ export default function Card() {
                 <a
                   href={`/detalhes/${filme.nome}`}
                 >
-                  <div className="btn btn-primary">
+                  <div className="btn btn-dark">
                     Detalhes
                   </div>
                 </a>

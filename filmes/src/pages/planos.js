@@ -1,4 +1,3 @@
-
 const planos = [{
   "nome": "Plano 1",
   "valor": "25$"
@@ -26,7 +25,6 @@ export default function Planos() {
               <div className="card-body">
                 <hr className="mt-0"></hr>
                 <h4 className="card-text">{plano.valor}</h4>
-              
               </div>
             </div>
           </div>
